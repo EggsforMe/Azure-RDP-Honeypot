@@ -100,8 +100,8 @@ Within minutes of the VM being deployed and exposed to the internet, automated s
 | 7:30 – 8:00 AM | ~5,000 | Sharp drop off |
 | 8:00 AM onwards | <500 | Occasional probes only |
 
-![Attack Timeline](<img width="1536" height="497" alt="Screenshot 2026-03-12 101210" src="https://github.com/user-attachments/assets/146c3aa3-a78b-4384-8c10-968dfb0d72cd" />
-)
+![Attack Timeline]<img width="1536" height="497" alt="Screenshot 2026-03-12 101210" src="https://github.com/user-attachments/assets/146c3aa3-a78b-4384-8c10-968dfb0d72cd" />
+
 ---
 
 ## Screenshots
