@@ -100,7 +100,36 @@ Within minutes of the VM being deployed and exposed to the internet, automated s
 | 7:30 – 8:00 AM | ~5,000 | Sharp drop off |
 | 8:00 AM onwards | <500 | Occasional probes only |
 
-![Attack Timeline]<img width="1536" height="497" alt="Screenshot 2026-03-12 101210" src="https://github.com/user-attachments/assets/146c3aa3-a78b-4384-8c10-968dfb0d72cd" />
+<img width="1536" height="497" alt="Screenshot 2026-03-12 101210" src="https://github.com/user-attachments/assets/146c3aa3-a78b-4384-8c10-968dfb0d72cd" />
+
+---
+
+### Key Findings
+
+**1. Automated bots quickly scan open port**
+The VM was discovered and attacked within hours of deployment. This shows how constantly the internet is being scanned by automated tools.
+
+**2. The spike pattern is bot behaviour**
+The sharp spike followed by a sudden drop is a well-known pattern of automated credential stuffing tools. The bot hammers the target aggressively, then moves on to the next IP once it determines the attack isn't succeeding quickly.
+
+**3. Attackers know it's Azure**
+Several usernames like `AZADMIN` and `ADMINISTRADOR` suggest attackers are using **cloud-specific wordlists**, knowing the target is an Azure VM.
+
+**4. Multiple IPs, same subnet**
+IPs like `185.156.73.169`, `185.156.73.59` and `185.156.73.24` all share the same subnet, suggesting they are operated by the **same threat actor** using multiple machines to distribute the attack.
+
+**5. Common username patterns**
+The most tried usernames were:
+
+| Username | 
+|---|---|
+| ADMINISTRATOR | 
+| ADMIN |
+| USER | 
+| SYSTEM | 
+| AZADMIN | 
+| BACKUP |
+| scan / test | 
 
 ---
 
