@@ -107,29 +107,28 @@ Within minutes of the VM being deployed and exposed to the internet, automated s
 ### Key Findings
 
 **1. Automated bots quickly scan open port**
+
 The VM was discovered and attacked within hours of deployment. This shows how constantly the internet is being scanned by automated tools.
 
 **2. The spike pattern is bot behaviour**
+
 The sharp spike followed by a sudden drop is a well-known pattern of automated credential stuffing tools. The bot hammers the target aggressively, then moves on to the next IP once it determines the attack isn't succeeding quickly.
 
-**3. Attackers know it's Azure**
-Several usernames like `AZADMIN` and `ADMINISTRADOR` suggest attackers are using **cloud-specific wordlists**, knowing the target is an Azure VM.
+**3. Attackers target high-privilege and neglected accounts**
+Usernames like `AZADMIN`, `BACKUP` and `SYSTEM` are being tried because it might grant attackers access to accounts with high privileges or be overlooked by administrators. Service accounts and backup accounts are common targets because they are often set up and forgotten, with weak or unchanged passwords.
 
 **4. Multiple IPs, same subnet**
+
 IPs like `185.156.73.169`, `185.156.73.59` and `185.156.73.24` all share the same subnet, suggesting they are operated by the **same threat actor** using multiple machines to distribute the attack.
 
-**5. Common username patterns**
-The most tried usernames were:
-
-| Username | 
-|---|---|
-| ADMINISTRATOR | 
-| ADMIN |
-| USER | 
-| SYSTEM | 
-| AZADMIN | 
-| BACKUP |
-| scan / test | 
+| Username | Attempts | Why Attackers Try It |
+|---|---|---|
+| ADMINISTRATOR | 2,128 | Default Windows admin account |
+| ADMIN | 2,126 | Common shorthand |
+| USER | 997 | Generic fallback |
+| SYSTEM | 950 | Built-in Windows account |
+| BACKUP | 953 | Often overlooked service account |
+| scan / test | 599 | Commonly left-over dev accounts |
 
 ---
 
