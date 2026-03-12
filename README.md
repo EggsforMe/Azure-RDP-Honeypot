@@ -83,7 +83,7 @@ Event
 ```
 
 
-## 📈 Attack Analysis
+## Attack Analysis
 
 ### Overview
 Within minutes of the VM being deployed and exposed to the internet, automated scanners discovered it and began brute force attempts. Over **72,220 failed login attempts** were recorded, demonstrating how quickly exposed systems are found and targeted in the wild.
