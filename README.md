@@ -139,7 +139,7 @@ IPs like `185.156.73.169`, `185.156.73.59` and `185.156.73.24` all share the sam
 | VM Overview | <img width="940" height="266" alt="image" src="https://github.com/user-attachments/assets/cc37243c-7b21-465e-a627-59372713621b" />|
 | NSG Rules | <img width="956" height="370" alt="image" src="https://github.com/user-attachments/assets/a886db45-13b6-4641-b7f9-018cd937b45f" /> |
 | KQL Query Results | <img width="447" height="244" alt="Screenshot 2026-03-12 100755" src="https://github.com/user-attachments/assets/90cddf4e-a6c2-42c5-9194-4aecdb653474" />|
-| Attack Timeline Chart | <img width="1167" height="266" alt="Screenshot 2026-03-12 130340" src="https://github.com/user-attachments/assets/c93b4b3d-53aa-46db-9d52-b266d9fc7bed" />|
+| Wordlists and Attempts Chart | <img width="1167" height="266" alt="Screenshot 2026-03-12 130340" src="https://github.com/user-attachments/assets/c93b4b3d-53aa-46db-9d52-b266d9fc7bed" />|
 
 ---
 
